@@ -1,12 +1,12 @@
 ---
 layout: post 
-title: Portfolio Home 
+title: CCAE-FE
 hide: true
 show_reading_time: false
 ---
 
-Hi! My name is [Your Full Name]
-
+This is the CCAE - California Center For The Performing Arts, Escondido frontend page.
+ 
 ### Development Environment
 
 
@@ -14,7 +14,6 @@ Hi! My name is [Your Full Name]
 
 {% include sass-nav.html %}
 
-Hi! My name is [Your Full Name]
 
 ## Learning Buttons
 
