@@ -14,12 +14,12 @@
 #   in _config.yml. It will appear in your document head meta (for Google search
 #   results) and in your feed.xml site description.
 
-title: Open Coding 
+title: CCAE Frontend
 description: "Class of 2026"
-owner_name: John Mortensen
-github_username: jm1021 
-github_repo: "portfolio" 
-baseurl: "/portfolio" 
+owner_name: Tristan Chiu, Barbara Zhao, Mateo Amador
+github_username: tristan-chiu0 
+github_repo: "CCAE-FE" 
+baseurl: "/CCAE-FE" 
 future: true
 
 # Build settings
