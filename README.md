@@ -6,6 +6,14 @@ This GitHub Pages repository can be customized by the blogger to support compute
 
 "Open Coding Society's instructional model is grounded in **Connectivism**, recognizing that learning happens through diverse networks of people, platforms, and AI. OCS is refining `student` using **Merrill's structure**, deepening learning through **Fink**, ensuring access via **UDL**, and supporting our classroom through **Agile and Design Thinking ceremonies**, with a touch of **Gagné** to focus each classroom day. OCS wants to create projects that support learning for today's digital, open, and connected world."
 
+```mermaid
+flowchart LR
+    Patron[Patron / Visitor] --> FE[CCAE-FE<br/>HTML + SASS + JS]
+    Staff[CCAE Staff] --> FE
+    FE -->|fetch JSON| BE[CCAE-BE<br/>Flask API]
+    BE --> DB[(Database)]
+    BE --> Ext[External Ticketing]
+```
 ## Student Requirements
 
 HS students will have the opportunity to create their personal GitHub Pages repository as they progress through their coursework.

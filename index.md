@@ -5,15 +5,15 @@ hide: true
 show_reading_time: false
 ---
 
-This is the CCAE - California Center For The Performing Arts, Escondido frontend page.
+This is the CCAE - California Center For The Performing Arts, Escondido frontend page. It will detail our process, implementations and features that we add.
  
-### Development Environment
-
-
-<!-- markdownlint-disable MD033 MD046 -->
-
-{% include sass-nav.html %}
-
+### Home Page UI Redesign
+```mermaid
+flowchart LR
+    Draft --> Implement
+    Implement --> Commit
+    Commit --> View
+```
 
 ## Learning Buttons
 
