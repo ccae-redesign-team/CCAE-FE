@@ -10,7 +10,7 @@ export var pythonURI;
 if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
     pythonURI = "http://localhost:5001";  // must match app.run(port=...) in CCAE-BE
 } else {
-    pythonURI = "https://ccae-be.onrender.com";  // replace with backend server from jmort if we get one
+    pythonURI = "https://flask.opencodingsociety.com";  // replace with backend server from jmort if we get one
 }
 
 export const fetchOptions = {
